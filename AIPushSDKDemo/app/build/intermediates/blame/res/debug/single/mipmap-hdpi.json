@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/apple/work/github_work/AIPushSDKDemo/AIPushSDKDemo/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/apple/work/github_work/AIPushSDKDemo/AIPushSDKDemo/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/apple/work/github_work/AIPushSDKDemo/AIPushSDKDemo/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/apple/work/github_work/AIPushSDKDemo/AIPushSDKDemo/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/apple/work/github_work/AIPushSDKDemo/AIPushSDKDemo/aipushsdklibrary/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/apple/.android/build-cache/bb22870fcae5a665e9a243fbf911558ccfcb67ca/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/apple/work/github_work/AIPushSDKDemo/AIPushSDKDemo/aipushsdklibrary/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/apple/.android/build-cache/bb22870fcae5a665e9a243fbf911558ccfcb67ca/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/apple/work/github_work/AIPushSDKDemo/AIPushSDKDemo/aipushsdklibrary/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/apple/.android/build-cache/bb22870fcae5a665e9a243fbf911558ccfcb67ca/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/apple/work/github_work/AIPushSDKDemo/AIPushSDKDemo/aipushsdklibrary/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/apple/.android/build-cache/bb22870fcae5a665e9a243fbf911558ccfcb67ca/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]
