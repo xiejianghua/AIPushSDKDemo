@@ -64,12 +64,12 @@
         "source": "/Users/apple/.android/build-cache/bb22870fcae5a665e9a243fbf911558ccfcb67ca/output/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "/Users/apple/work/github_work/AIPushSDKDemo/AIPushSDKDemo/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "/Users/apple/.android/build-cache/bb22870fcae5a665e9a243fbf911558ccfcb67ca/output/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/apple/work/github_work/AIPushSDKDemo/AIPushSDKDemo/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
         "source": "/Users/apple/.android/build-cache/bb22870fcae5a665e9a243fbf911558ccfcb67ca/output/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/apple/work/github_work/AIPushSDKDemo/AIPushSDKDemo/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/Users/apple/.android/build-cache/bb22870fcae5a665e9a243fbf911558ccfcb67ca/output/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/apple/work/github_work/AIPushSDKDemo/AIPushSDKDemo/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",

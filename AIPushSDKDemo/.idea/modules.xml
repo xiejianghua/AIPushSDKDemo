@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AIPushSDKDemo.iml" filepath="$PROJECT_DIR$/AIPushSDKDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aipushsdkchat/aipushsdkchat.iml" filepath="$PROJECT_DIR$/aipushsdkchat/aipushsdkchat.iml" />
       <module fileurl="file://$PROJECT_DIR$/aipushsdklibrary/aipushsdklibrary.iml" filepath="$PROJECT_DIR$/aipushsdklibrary/aipushsdklibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

@@ -1,1 +1,1 @@
-include ':app', ':aipushsdklibrary'
+include ':app', ':aipushsdklibrary', ':aipushsdkchat'
