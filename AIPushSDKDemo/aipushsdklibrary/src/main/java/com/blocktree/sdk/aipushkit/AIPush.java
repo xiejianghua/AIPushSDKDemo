@@ -33,7 +33,7 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class AIPush {
     // API网络环境
-    private static final AIConstants.AIAPIServerType apiType= AIConstants.AIAPIServerType.test;
+    private static AIConstants.AIAPIServerType apiType= AIConstants.AIAPIServerType.pro;
 
     public static AIConstants.AIAPIServerType getApiType() {
         return apiType;
