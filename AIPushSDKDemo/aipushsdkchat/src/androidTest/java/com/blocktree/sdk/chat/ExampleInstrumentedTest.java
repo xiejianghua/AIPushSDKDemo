@@ -1,4 +1,4 @@
-package com.blocktree.sdk;
+package com.blocktree.sdk.chat;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

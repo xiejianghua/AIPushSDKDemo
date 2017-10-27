@@ -1,4 +1,4 @@
-package com.blocktree.sdk;
+package com.blocktree.sdk.chat;
 
 import org.junit.Test;
 
