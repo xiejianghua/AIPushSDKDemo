@@ -74,26 +74,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AIChatMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/mode/AIChatMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="185" column="40" selection-start-line="185" selection-start-column="32" selection-end-line="185" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AIUserInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/mode/AIUserInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="112" column="28" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider editor-type-id="android-manifest">
@@ -3738,8 +3718,8 @@
         <option value="$PROJECT_DIR$/aipushsdkchat/src/test/java/com/blocktree/sdk/chat/ExampleUnitTest.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aichatkit/AIChat.java" />
-        <option value="$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/mode/AIConversation.java" />
         <option value="$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/mode/AIUserInfo.java" />
+        <option value="$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/mode/AIConversation.java" />
       </list>
     </option>
   </component>
@@ -4642,7 +4622,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/mode/AIUserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
+        <state relative-caret-position="1080">
           <caret line="112" column="28" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="28" />
           <folding />
         </state>
@@ -4650,8 +4630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/mode/AIChatMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="185" column="40" selection-start-line="185" selection-start-column="32" selection-end-line="185" selection-end-column="40" />
+        <state relative-caret-position="195">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="29" />
           <folding />
         </state>
       </provider>
