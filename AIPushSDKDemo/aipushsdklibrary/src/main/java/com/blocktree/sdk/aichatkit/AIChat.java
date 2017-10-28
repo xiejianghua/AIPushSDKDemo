@@ -332,15 +332,11 @@ public class AIChat implements AIComponent {
 
     /**
      * 4.21 获取最近会话
-     * @param isUnread     是否只要未阅会话，0：否，1：是
-     * @param isContainMessage 是否会话对象中包含最后的消息对象
-     * @param role 应用的内部角色
+     * @param count	限制会话条数，最大50
      */
-    public void getConversations(String isUnread,String isContainMessage,String role,BaseCallBack baseCallBack){
+    public void getConversations(String count,BaseCallBack baseCallBack){
         Map<String, String> params=new HashMap<String, String>();
-        params.put("isUnread",isUnread);
-        params.put("isContainMessage",isContainMessage);
-        params.put("role",role);
+        params.put("count",count);
         sendRequest("getConversations", params, baseCallBack);
     }
 
