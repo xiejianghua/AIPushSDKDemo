@@ -2,6 +2,9 @@ package com.blocktree.sdk.aipushkit.mode;
 
 import com.blocktree.sdk.aipushkit.sugarorm.SugarRecord;
 import com.blocktree.sdk.aipushkit.sugarorm.annotation.Unique;
+import com.blocktree.sdk.aipushkit.sugarorm.helper.NamingHelper;
+
+import java.util.List;
 
 /**
  * xiezuofei
@@ -106,5 +109,14 @@ public class AIUserInfo extends SugarRecord {
                 ", extAttr='" + extAttr + '\'' +
                 ", online='" + online + '\'' +
                 '}';
+    }
+    public static AIUserInfo getInfo(String userkey){
+        List<AIUserInfo> aiUserInfos = AIConversation.findWithQuery(AIUserInfo.class,
+                "SELECT * FROM " + NamingHelper.toTableName(AIUserInfo.class) + " WHERE userkey = ? ", userkey);
+        AIUserInfo aiUserInfo = null;
+        if (aiUserInfos != null && aiUserInfos.size() > 0) {
+            aiUserInfo = aiUserInfos.get(0);
+        }
+        return aiUserInfo;
     }
 }

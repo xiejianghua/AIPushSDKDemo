@@ -16,6 +16,7 @@ import java.util.List;
  */
 public class AIConversation extends SugarRecord {
     @Unique
+    @Column(name = "objectkey")
     private String objectkey="";//会话对象id
     private String conversationid="";
     private String conversationType="";//会话类型，0：单聊，1：群组
@@ -188,5 +189,14 @@ public class AIConversation extends SugarRecord {
         //DESC  ASC
         return AIConversation.findWithQuery(AIConversation.class,
                 "SELECT * FROM " + NamingHelper.toTableName(AIConversation.class) + " ORDER BY lastSendMsgTime DESC");
+    }
+    public static AIConversation getInfo(String objectkey){
+        List<AIConversation> aiConversations = AIConversation.findWithQuery(AIConversation.class,
+                "SELECT * FROM " + NamingHelper.toTableName(AIConversation.class) + " WHERE objectkey = ? ", objectkey);
+        AIConversation aiConversation = null;
+        if (aiConversations != null && aiConversations.size() > 0) {
+            aiConversation = aiConversations.get(0);
+        }
+        return aiConversation;
     }
 }
