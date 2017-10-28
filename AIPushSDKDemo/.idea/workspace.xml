@@ -100,11 +100,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GrayService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GrayService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/service/GrayService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+            <state relative-caret-position="150">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeviceUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/common/DeviceUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AIWebSocket.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/http/AIWebSocket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -3713,7 +3733,6 @@
         <option value="$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/http/AIHttpMethods.java" />
         <option value="$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/DeviceUtils.java" />
         <option value="$PROJECT_DIR$/aipushsdklibrary/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/common/DeviceUtils.java" />
         <option value="$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/AIPush.java" />
         <option value="$PROJECT_DIR$/aipushsdklibrary/build.gradle" />
         <option value="$PROJECT_DIR$/aipushsdkchat/src/main/AndroidManifest.xml" />
@@ -3724,6 +3743,8 @@
         <option value="$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/mode/AIUserInfo.java" />
         <option value="$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/mode/AIConversation.java" />
         <option value="$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/service/GrayService.java" />
+        <option value="$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/common/DeviceUtils.java" />
+        <option value="$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/http/AIWebSocket.java" />
       </list>
     </option>
   </component>
@@ -3840,6 +3861,14 @@
               <option name="myItemId" value="sdk" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aipushkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -3857,10 +3886,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="sdk" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aichatkit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -4141,7 +4166,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -4149,7 +4174,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37885463" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3421439" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3421439" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -4419,25 +4444,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/http/AIWebSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/blocktree/sdk/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="45" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/common/DeviceUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -4627,8 +4637,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/service/GrayService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        <state relative-caret-position="150">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/common/DeviceUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aipushsdklibrary/src/main/java/com/blocktree/sdk/aipushkit/http/AIWebSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="24" />
           <folding />
         </state>
       </provider>
