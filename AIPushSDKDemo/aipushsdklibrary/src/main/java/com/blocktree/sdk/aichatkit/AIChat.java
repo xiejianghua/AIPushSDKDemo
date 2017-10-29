@@ -154,14 +154,15 @@ public class AIChat implements AIComponent {
     }
     /**
      *  4.6 登录用户 login
-     *
+     * @param userkey
      * @param username  用户在应用服务的登录用户名（如：邮件，手机）
      * @param nickname  用户在应用服务的昵称
      * @param avatarUrl 用户头像的url
      * @param role      自定义角色，数字
      */
-    public void login(String username, String nickname, String avatarUrl, String role, BaseCallBack baseCallBack){
+    public void login(String userkey,String username, String nickname, String avatarUrl, String role, BaseCallBack baseCallBack){
         Map<String, String> params=new HashMap<String, String>();
+        params.put("userkey",userkey);
         params.put("username",username);
         params.put("nickname",nickname);
         params.put("avatarUrl",avatarUrl);

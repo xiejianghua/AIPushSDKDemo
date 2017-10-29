@@ -7,7 +7,6 @@ import android.os.Handler;
 import android.os.Looper;
 
 import com.blocktree.sdk.aipushkit.common.SharedPreferences;
-import com.blocktree.sdk.aipushkit.common.SystemConfig;
 import com.blocktree.sdk.aipushkit.http.AIHttpMethods;
 import com.blocktree.sdk.aipushkit.http.AIWebSocket;
 import com.blocktree.sdk.aipushkit.http.BaseCallBack;
@@ -212,10 +211,11 @@ public class AIPush {
     public void sendRequest(String method,Map<String, String> params,BaseCallBack response) {
         AILog.e("接口方法:"+method);
         if("login".equals(method)){
-            String username=params.get("username");
+            String userkey=params.get("userkey");
+            //String username=params.get("username");
             //用户在应用服务的唯一标识
-            String userkey_ls= AICommon.shaEncrypt(SystemConfig.APPKEY+username);
-            SharedPreferences.getInstance(mContext).putString("userkey",userkey_ls);
+            //String userkey_ls= AICommon.shaEncrypt(SystemConfig.APPKEY+username);
+            SharedPreferences.getInstance(mContext).putString("userkey",userkey);
         }
         params.putAll(configAuthParams());
         AILog.e("传入参数:"+params);

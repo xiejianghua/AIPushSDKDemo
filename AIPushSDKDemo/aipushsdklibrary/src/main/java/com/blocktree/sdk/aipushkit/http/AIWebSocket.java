@@ -5,7 +5,6 @@ import android.content.Intent;
 
 import com.blocktree.sdk.aipushkit.AILog;
 import com.blocktree.sdk.aipushkit.AIPush;
-import com.blocktree.sdk.aipushkit.common.DeviceUtils;
 
 import java.util.concurrent.TimeUnit;
 
@@ -47,7 +46,7 @@ public class AIWebSocket{
         /*if(_isConnected&&sendMessage("")){
             return;
         }*/
-        if(_isConnected||!DeviceUtils.isNetworkAvailable(mContext)){
+        if(_isConnected){
             return;
         }
         HttpLoggingInterceptor loggingInterceptor = new HttpLoggingInterceptor();
@@ -140,7 +139,7 @@ public class AIWebSocket{
     * @return
     */
     public boolean sendMessage(String message){
-        if (mWebSocket!=null&&DeviceUtils.isNetworkAvailable(mContext)){
+        if (mWebSocket!=null){
             return mWebSocket.send(message);
         }
         return false;
